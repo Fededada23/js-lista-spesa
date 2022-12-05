@@ -7,7 +7,8 @@ let i = 0;
 while (i < list.length) {
   item = list[i];
   text += `<li class="list-item">${item}</li>`
-  i++;
   list_container.innerHTML=text
+  //CONDIZIONE PER TERMINARE IL CICLO
+  i++;
   
 }
